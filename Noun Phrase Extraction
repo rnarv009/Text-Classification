@@ -1,0 +1,2 @@
+This part will Talk about the extraction of nuone phrase from the given sentence.
+#Noune Phase: Rule says that an NP chunk should be formed whenever the chunker finds an optional determiner (DT) followed by any number of adjectives (JJ) and then a noun (NN).
