@@ -8,7 +8,7 @@ Tokenize the sentence using 'nltk.word_tokenize(x)' and give is POS(part of spee
 # 1.2 Writting Grammar:
 Grammar for the selecting the words from the tokenized sentence that give the nuon phrase.\
 grammar = r'''\
-    NP:{<DT>?<JJ|JJS>*<NN|NNS>}
+    NP:{'<DT>?<JJ|JJS>*<NN|NNS>'}
         
     '''
 # 1.3 Chunk parser:
